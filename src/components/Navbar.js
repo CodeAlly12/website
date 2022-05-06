@@ -27,7 +27,7 @@ function Navbar() {
   return( <>
    <nav className="navbar"><div className="navbar-container">
        <Link to='/' className='navbar-logo' onClick = {closeMobileMenu} > 
-       LET'S EAT <i className='fab fa-earlybirds'/> 
+       cozy foodie <i className='fab fa-earlybirds'/> 
        </Link>
        <div className='menu-icon'  onClick={handleClick}>
          <i className={ click ? 'fas fa-times':'fas fa-bars'}/>
