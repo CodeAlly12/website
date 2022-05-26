@@ -27,7 +27,7 @@ function Navbar() {
   return( <>
    <nav className="navbar"><div className="navbar-container">
        <Link to='/' className='navbar-logo' onClick = {closeMobileMenu} > 
-       cozy foodie <i className='fab fa-earlybirds'/> 
+        WORK.IT<i className='fas fa-leaf'/> 
        </Link>
        <div className='menu-icon'  onClick={handleClick}>
          <i className={ click ? 'fas fa-times':'fas fa-bars'}/>
@@ -35,25 +35,25 @@ function Navbar() {
        </div>
        <ul className={click? 'nav-menu active': 'nav-menu'}>
          { <li className='nav-item  '>
-           <Link to= '/Home'className='nav-links' onClick={closeMobileMenu}>
+           <Link to= '/'className='nav-links' onClick={closeMobileMenu}>
              Home
            </Link>
            </li> }
           <li className='nav-item  '>
-           <Link to= '/Reservation'className='nav-links' onClick={closeMobileMenu}>
-             Reservation
+           <Link to= '/projects'className='nav-links' onClick={closeMobileMenu}>
+             Projects
            </Link>
 
          </li>
          <li className='nav-item  '>
-           <Link to= '/Menu'className='nav-links' onClick={closeMobileMenu}>
-             Menu
+           <Link to= '/contact'className='nav-links' onClick={closeMobileMenu}>
+             Contact
            </Link>
 
          </li>
          <li className='nav-item  '>
-           <Link to= '/Shop'className='nav-links' onClick={closeMobileMenu}>
-             Shop
+           <Link to= '/Services'className='nav-links' onClick={closeMobileMenu}>
+             Services
            </Link>
 
          </li>
@@ -65,13 +65,13 @@ function Navbar() {
          </li> */}
          <li className='nav-item  '>
            <Link to= '/Sign Up'className='nav-links-mobile' onClick={closeMobileMenu}>
-             SIGN UP
+             Sign up
            </Link>
 
          </li>
        </ul>
-       {button &&<Button buttonStyle='btn--primary'
-       >SIGN UP</Button>}
+       {button &&<Button buttonStyle='btn--large'
+       >Sign up</Button>}
        
    </div>
    </nav>

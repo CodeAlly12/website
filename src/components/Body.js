@@ -8,9 +8,9 @@ import'./Body.css';
 function Body(){
     return(
         <div className='Body-container'>
-            <video src="images/videos/background.mp4" autoPlay loop muted/>
+            <video src="images/videos/myvid.mp4" autoPlay loop muted/>
             <h1> WELCOME</h1>
-            <p>Explore our menu </p>
+          
             <div className='Body-btn'>
                <Button className='btn' buttonStyle='btn--outline'
                buttonSize='btn--large'>

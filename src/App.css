@@ -5,21 +5,20 @@
   font-family: Arial, Helvetica, sans-serif;
 
 }
- .home,
- .Reservation,
- .Menu
- .shop,
- .contact,
- .SignUp {
+ .Home,
+ .Projects,
+ .contact
+ .Services,
+ .Sign Up {
      display: flex;
-     height: 90vh;
+     height: 100vh;
      align-items: center;
      justify-content: center;
-     font-size: 3rem;
+     font-size: 4rem;
     
  }
 
- .Reservation{
+ .Projects{
      /* background-image: ; */
      background-position: center;
      background-size: cover;
@@ -30,7 +29,7 @@
 
  }
 
-.Menu {
+.Contact {
     /* background-image: ; */
     background-position: center;
     background-size: fill;
@@ -40,7 +39,7 @@
 
 } 
 
-.shop{
+.Services{
     /* background-image: ; */
      background-position: center ;
      background-size: fill;
@@ -48,12 +47,5 @@
      color: white;
      font-size: 100;
 }
-.contact{
-    /* background-image: ; */
-     background-position: center;
-     background-size: fill;
-     background-repeat: no-repeat;
-     color: white;
-     font-size: 100;
-}
+
 

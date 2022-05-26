@@ -1,10 +1,10 @@
 .navbar {
-    background: linear-gradient(90deg, black, black);
-    height: 100px;
+    background: linear-gradient(90deg,purple, lightpink);
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 14px;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -24,14 +24,17 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 20px;
     display: flex;
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
   }
   
-  .fa-earlybirds {
+  .fa-leaf {
     margin-left: 0.5rem;
-    font-size: 1.8rem;
+    font-size: 20px;
+    color: lightcoral;
   }
   
   .nav-menu {
@@ -56,6 +59,8 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
   }
   
   .nav-links:hover {
@@ -93,7 +98,7 @@
     }
   
     .nav-menu.active {
-      background: black;
+      background: lightpink;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -108,8 +113,8 @@
     }
   
     .nav-links:hover {
-      background-color:black ;
-      color: black;
+      background-color:white;
+      color: lightcoral;
       border-radius: 0;
     }
   
@@ -152,7 +157,7 @@
   
     .nav-links-mobile:hover {
       background:white;
-      color: black;
+      color:blueviolet;
       transition: 250ms;
     }
   }
